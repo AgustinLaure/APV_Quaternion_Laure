@@ -166,11 +166,11 @@ public struct Quat
 
     public static Quat LookRotation(Vec3 forward)
     {
-        return Quat.identity; //NI
+        return LookRotation(forward, Vec3.Up);
 
     }
 
-    public static Quat LookRotation(Vec3 forward, [DefaultValue("Vec3.up")] Vec3 upwards)
+    public static Quat LookRotation(Vec3 forward, Vec3 upwards)
     {
         return Quat.identity; //NI
 
