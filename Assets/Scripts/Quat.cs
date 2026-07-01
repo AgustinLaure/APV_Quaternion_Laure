@@ -73,7 +73,7 @@ public struct Quat
 
     public static implicit operator Quat(Quaternion unityQuat)
     {
-        return new Quat(unityQuat.x, unityQuat.y, unityQuat.z, unityQuat.w);
+        return new Quat(unityQuat);
     }
 
     #endregion
