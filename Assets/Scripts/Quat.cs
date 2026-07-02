@@ -3,10 +3,10 @@ using System;
 using UnityEngine;
 public struct Quat
 {
-    private float x;
-    private float y;
-    private float z;
-    private float w;
+    public float x;
+    public float y;
+    public float z;
+    public float w;
 
     private const float epsilon = 1E-05f;
 
